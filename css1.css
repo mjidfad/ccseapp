@@ -1,0 +1,222 @@
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;outline: none;
+}
+.info{
+    border: 1px solid black;border-radius: 5px;
+}
+
+.inicio{
+  /*  width: 70%;margin: 0 auto;border:solid black 2px;height: auto;padding: 30px 0px 80px 0px;
+    background:#cccccc;*/display: block; max-width: 800px;background-color:#d2f3f0;
+    margin:20px auto; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;border-radius: 2px;margin-top: 0;padding-top: 1px;font-size: 10px;
+}
+.inicio .info{/*info de test*/
+    width: auto;padding: 5px 0px 5px 10px;height: auto;margin-top: 5px;
+}
+
+.inicio.star-inicio{
+    display: none;
+}
+.test{
+   /* width: 70%;margin: 0 auto;text-align: center;border:solid black 2px;height: auto;padding: 30px 0px 80px 0px;
+    background-color: rgb(25, 207, 8);*/align-items: center;
+    display: none; max-width: 800px;background-color:#ffffff;
+    margin:20px auto;height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;border-radius: 1px;margin-top: 0;padding-top: 1px;
+}
+.test.start-test{
+    display: block;
+}
+.fin{/*div resultado*/
+    width: 70%;margin: 0 auto;text-align: center;border:solid black 1px;height: auto;
+    background-color:#ffffff;align-items: center;display: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;padding-top: 30px;border-radius: 10px;
+}
+.fin.active{
+    display: block;
+}
+/*final box*/
+.zero{
+width: 100%;height: 70%;margin: 10px auto;page-break-after: 100px;
+}
+.bb{
+    width: 100%;margin-bottom: 50px;height: 29%;padding-bottom: 10px;margin-top: 30px;
+}
+
+.bbbb1{
+    width: 150px;height: 50px;background:red;margin-top: 25px;cursor: pointer;
+    font-size: x-large;border-radius: 5px;
+} .bbbb1:hover{
+    background: gold;color: red;
+}.bbbb2{
+    width: 150px;height: 50px;background-color: green;margin-top: 25px;cursor: pointer;
+    font-size: x-large;border-radius: 5px;margin-right: 1px;
+}.bbbb2:hover{
+    background: gold;color:green;
+}
+
+
+      .head{
+          display: flex;justify-content: space-between;padding-left: 50px;
+      }
+     .doo{
+        width: 150px;height: 50px;background-color: rgb(133, 114, 5);margin-top: 100px;cursor: pointer;
+        font-size: x-large;margin: 10px;border-radius: 4px;
+     }
+      .b1{
+       /* width: 150px;height: 50px;background-color: rgb(133, 114, 5);margin-top: 100px;cursor: pointer;
+        font-size: x-large;margin: 10px;border-radius: 4px;*/
+        padding: 10px ;background: #009688;
+        color: #ffffff;border: none;border-radius: 10px;
+        font-size: 20px;cursor: pointer;display: inline-block;
+        margin-bottom: 5px;margin-left: 2px;width: 30%;height: 20%;
+} 
+.b-2{
+    padding: 10px ;background:#009688;
+    color: #ffffff;border: none;border-radius: 10px;
+    font-size: 20px;cursor: pointer;display: inline-block;
+    margin-bottom: 10px;margin-left: 2px;width: 30%;height: 20%;
+}
+.bm1{
+    /* width: 150px;height: 50px;background-color: rgb(133, 114, 5);margin-top: 100px;cursor: pointer;
+     font-size: x-large;margin: 10px;border-radius: 4px;*/
+     padding: 10px ;background: #009688;
+     color: #ffffff;border: none;border-radius: 10px;
+     font-size: 20px;cursor: pointer;display: inline-block;margin-bottom: 10px;margin-left: 2px;width: 25%;height: 20%;
+} 
+.ansower-indicator{
+    border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;
+    /*margin-top: 10px;padding-top: 10px;*/text-align: center;padding: 10px;
+}
+/*.di{
+    height: 90px;width: 130px ;border: #000000 1px;
+display: inline-block;border-radius: 10px;text-align: center;padding-top: 10px
+;margin-right: 10px;margin-bottom: 10px;margin-top: 10px;
+}*/
+.b2{
+    width: 150px;height: 50px;background-color: rgb(133, 114, 5);margin-top: 100px;cursor: pointer;
+    font-size: x-large;margin: 10px;border-radius: 4px;
+} .b3{
+    width: 150px;height: 50px;background-color: rgb(133, 114, 5);margin-top: 100px;cursor: pointer;
+    font-size: x-large;margin: 10px;border-radius: 4px;
+} .b4{
+    width: 150px;height: 50px;background-color: rgb(133, 114, 5);margin-top: 100px;cursor: pointer;
+    font-size: x-large;margin: 10px;border-radius: 4px;
+} .b5{
+    width: 150px;height: 50px;background-color: rgb(133, 114, 5);margin-top: 100px;cursor: pointer;
+    font-size: x-large;margin: 10px;border-radius: 4px;
+}
+
+
+
+
+
+.pregunta{
+    margin-top: 5px;font-size: 11px;border: 1px black solid;padding: 10px;border-radius: 5px;background: #d2f3f0;
+}
+
+
+
+.bb2{
+    width: 150px;height: 50px;background-color:red;margin-top: 5px;cursor: pointer;
+    font-size: x-large;border-radius: 5px;
+}
+.bb2:hover{
+    background: gold;color: red;
+}
+
+.bb3{
+    width: 150px;height: 50px;background-color: green;margin-top: 5px;cursor: pointer;
+    font-size: x-large;border-radius: 5px;display: none;margin-left: 2px;
+}
+.bb3.bbb3{
+    display: block;
+}
+.bb3:hover{
+    background: yellow;color: green;
+}
+
+.di{
+    display: inline-flex;
+}
+
+   
+    .option-list{
+        background:#ffffff ;width:100%;height: auto;margin-top: 3px;
+    }
+    .option-list .disab{
+        pointer-events: none;
+    }
+    .opti{
+        background:#ffffff ;margin-top: 2px;border: 1px solid black;
+        border-radius: 5px;padding: 5px 4px 5px 4px;width: 100%;height: auto;
+        cursor: pointer;  }
+/*****/
+
+/*****/
+     .opti:hover{
+        background: #f5f5f5;cursor: pointer;
+    } 
+   
+   
+   
+
+.footer{
+    font-size: 10px;font-weight: 600;
+    padding-top: 10px;margin-top: 2px;
+    margin: 0;text-align: center;display: inline-block;width: auto;
+}
+
+
+.quito1{
+    display: none;
+}
+.green{
+    /*background: green;padding: 10px ;
+    color: #ffffff;border: none;border-radius: 10px;width: 30%;
+    font-size: 20px;cursor: pointer;display: inline-block;margin-bottom: 10px;margin-left: 2px;width: 25%;height: 20%;*/
+    padding: 10px ;background:green;
+    color: #ffffff;border: none;border-radius: 10px;
+    font-size: 20px;cursor: pointer;display: inline-block;
+    margin-bottom: 10px;margin-left: 2px;width: 30%;height: 20%;
+
+}
+.red{
+   /* background: red;padding: 10px ;
+    color: #ffffff;border: none;border-radius: 10px;width: 30%;
+    font-size: 20px;cursor: pointer;display: inline-block;margin-bottom: 10px;margin-left: 2px;width: 25%;height: 20%;*/
+    padding: 10px ;background:red;
+    color: #ffffff;border: none;border-radius: 10px;
+    font-size: 20px;cursor: pointer;display: inline-block;
+    margin-bottom: 10px;margin-left: 2px;width: 30%;height: 20%;
+
+}
+/*.b11{
+    
+        /* width: 150px;height: 50px;background-color: rgb(133, 114, 5);margin-top: 100px;cursor: pointer;
+         font-size: x-large;margin: 10px;border-radius: 4px;*/
+        /* padding: 10px ;background: #009688;
+         color: #ffffff;border: none;border-radius: 10px;
+         font-size: 20px;cursor: pointer;display: inline-block;
+         margin-bottom: 10px;margin-left: 2px;width: 40%;height: 20%;
+ 
+}*/ .bb{
+    width: 100%;justify-content: space-between;
+}
+.di{
+    width: 100%;padding:1px;justify-content: space-between;
+}
+h3{
+    font-size: 20px;
+    color: #000000;font-weight: 5000;margin-bottom: 5px;text-align: center;}
+h2{
+    color: #000000;font-weight: 5000;margin-bottom: 15px; 
+    font-size: 30px; border-bottom: 1px solid black;text-align: center;}
+
+    .opti2 h1{font-size: 20px;padding: 5px  4px 5px 4px;
+    }h1{font-size: 22px;padding: 5px 4px 5px 4px;}
